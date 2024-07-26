@@ -8,7 +8,7 @@ pipeline {
 */
     environment {
         registry = "kubeimran/vproappdock"
-        registryCredential = "dockerhub"
+        registryCredential = 'dockerhub'
     }
 
     stages{
